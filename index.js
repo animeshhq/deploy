@@ -1,4 +1,4 @@
-import express from 'express'
+const express = require('express')
 const app = express()
 
 app.get('/', (req, res) => {
@@ -6,5 +6,5 @@ app.get('/', (req, res) => {
 })
 
 app.listen(4000, () => {
-  console.log('App running')
+  console.log('App running on port 4000')
 })
