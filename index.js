@@ -5,6 +5,6 @@ app.get('/', (req, res) => {
   res.send('Hello World')
 })
 
-app.listen(4000, () => {
-  console.log('App running on port 4000')
+app.listen(25565, () => {
+  console.log('App running on port 25565')
 })
